@@ -1,6 +1,12 @@
+### AVISO: Ver este archivo en Code view para que sea entendible, hay cosas que no aparecen en el modo de vista normal
+
 # Paso 0:
 Tener la estructura correcta en github
+
+
+
 La estructura:
+  
   <extra-addons>
     <dummy_module>
       __init__.py
@@ -10,14 +16,22 @@ La estructura:
   </extra-addons>
   Dockerfile
   README.md
+  
 
 Meter en __manifest__.py:
+
 {
+
     "name": "Dummy Module",
+    
     "version": "1.0",
+    
     "summary": "Módulo vacío de prueba",
+    
     "installable": True,
+    
 }
+
 Meter en Dockerfile:
 # Imagen base Odoo 17
 FROM odoo:17
