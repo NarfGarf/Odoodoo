@@ -19,7 +19,7 @@ La estructura:
   
 
 Meter en __manifest__.py:
-
+```
 {
 
     "name": "Dummy Module",
@@ -31,8 +31,10 @@ Meter en __manifest__.py:
     "installable": True,
     
 }
-
+```
 Meter en Dockerfile:
+```
+
 # Imagen base Odoo 17
 FROM odoo:17
 # (Opcional) módulos propios
@@ -59,7 +61,7 @@ odoo --db_host=$PGHOST --db_port=$PGPORT \
 --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
 --db-filter=$PGDATABASE \
 --dev=all"]
-
+```
 # Paso 1:
 Entrar en Render.com e iniciar sesión con GitHub
 
