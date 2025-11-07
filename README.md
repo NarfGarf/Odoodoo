@@ -5,7 +5,7 @@ Tener la estructura correcta en github
 
 
 La estructura:
-  
+```
   <extra-addons>
     <dummy_module>
       __init__.py
@@ -15,7 +15,7 @@ La estructura:
   </extra-addons>
   Dockerfile
   README.md
-  
+```
 
 Meter en __manifest__.py:
 ```
