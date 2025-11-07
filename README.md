@@ -1,4 +1,3 @@
-### AVISO: Ver este archivo en Code view para que sea entendible, hay cosas que no aparecen en el modo de vista normal
 
 # Paso 0:
 Tener la estructura correcta en github
