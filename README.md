@@ -82,4 +82,5 @@ crear 3 variables y darle los valores correctos del Postgres:
   - PGUSER: Username
   - PGPASSWORD: Password
 # Paso 6:
-Hacer un deploy en Postgres y luego Odoo
+Hacer un deploy en Postgres y luego Odoo (usuario: admin contraseña: admin)
+
